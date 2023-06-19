@@ -1,6 +1,47 @@
+@font-face {
+    font-family: 'GoldlinesserifRegular';
+    src: url(fonts/GoldlinestrialRegular.otf);
+}
 h1 {
     text-align: center;
 }
-.title1 {
-    color: aqua;
+.list {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: 30px;
+
+
+}
+.title {
+    font-family: 'GoldlinesserifRegular', sans-serif;
+    font-size: 6em;
+    color: #EEE3CB;
+   
+    font-weight: bold;
+
+}
+.block {
+    display: block;
+    margin:auto;
+    border-radius: 25px;
+    width: min(70%, 500px);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
+}
+.container  {
+    position: relative;
+    top: 8em;
+    width: 45em;
+    height: 112em;
+    
+    
+    border: 0.5em double white;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-radius: 1em;
+    background:rgb(59, 59, 59);
+
+}
+body {
+    background-color: #B7C4CF; 
 }
